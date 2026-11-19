@@ -1,82 +1,46 @@
 # Akash Philip Varghese
 
-**Full-Stack Engineer · Computer Vision · Applied AI**
+**Full-Stack Engineer · Applied AI & Computer Vision · Founder, AFTERWORK**
 
-I build applications at the intersection of intelligent systems, backend engineering, and business technology—from image-analysis pipelines to authenticated full-stack applications. I care about reproducible experiments, clean interfaces, and candid engineering documentation.
+I build software that connects real-world problems with practical engineering—from computer-vision prototypes to authenticated web applications. My focus is on understandable architecture, secure defaults, repeatable tests, and honest documentation of what works today.
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/akashphilipvarghese-code)
-[![AFTERWORK](https://img.shields.io/badge/AFTERWORK-111111?style=flat-square&logo=googlechrome&logoColor=white)](https://weareafterwork.com)
+**Currently working on:** improving automated tests, deployment reliability, and reproducibility across my projects.
 
----
+## Selected work
 
-## Selected engineering work
+### [Tradeix — shipment visibility platform](https://github.com/akashphilipvarghese-code/tradeix-platform)
+**Next.js · TypeScript · SQLite · Authentication · Docker**
 
-### [01 / Fruit Quality Intelligence](https://github.com/akashphilipvarghese-code/FRUIT-AUTOMATION)
-**Computer vision · FastAPI · Next.js · ML workflows**
+A full-stack logistics prototype with protected dashboards, signed sessions, and customer-scoped shipment queries.
 
-Fruit-ripeness analysis prototype covering image acquisition, feature extraction, classification, and web-based comparisons.
+- **Engineering focus:** authorization boundaries, session security, database-backed APIs, and CI.
+- **Explore:** [source and setup](https://github.com/akashphilipvarghese-code/tradeix-platform#readme) · [open improvements](https://github.com/akashphilipvarghese-code/tradeix-platform/pulls)
+- **Current limits:** seeded shipment data; no live carrier integrations or production deployment.
 
-- MobileNetV2 feature extraction, training scripts, and comparison workflows
-- FastAPI image analysis endpoints
-- Next.js camera and dashboard interfaces
+### [FruityVision — fruit ripeness analysis](https://github.com/akashphilipvarghese-code/FRUIT-AUTOMATION)
+**Python · FastAPI · Computer Vision · Next.js**
 
-*Status: prototype. Some inference paths use documented demo/mock fallbacks; actual predictions require configured models and data.*
+A fruit-quality analysis prototype with image-upload APIs, camera interfaces, and model-comparison workflows.
 
-### [02 / Tradeix Platform](https://github.com/akashphilipvarghese-code/tradeix-platform)
-**Full-stack · Authentication · SQL · Docker**
+- **Engineering focus:** inference pipelines, dataset-based comparison, reproducible training, and API safety.
+- **Explore:** [source and setup](https://github.com/akashphilipvarghese-code/FRUIT-AUTOMATION#readme) · [training guide](https://github.com/akashphilipvarghese-code/FRUIT-AUTOMATION/blob/main/TRAINING.md)
+- **Current limits:** some inference routes use demo/mock results when model assets or datasets are unavailable; these are not validated model predictions.
 
-Shipment-visibility platform prototype featuring protected dashboards and customer-scoped shipment queries.
+## How I approach engineering
 
-- Next.js app routes and authenticated sessions
-- Database-backed APIs and SQLite development environment
-- Docker build and CI workflow configuration
+1. **Make behavior observable.** Tests, clear error handling, and useful CI checks before claiming something works.
+2. **Keep claims verifiable.** Separate implemented features from prototypes, demo data, and future integrations.
+3. **Build for maintainability.** Small reviewable changes, documented setup, and explicit security assumptions.
 
-*Status: prototype with seeded shipment data. Live carrier integrations and production infrastructure are not yet implemented.*
+## Tools I work with
 
----
+**Languages:** Python · TypeScript/JavaScript · SQL · C/C++  
+**Applications:** FastAPI · Next.js · React · REST APIs  
+**ML / vision:** PyTorch · TensorFlow · OpenCV  
+**Engineering:** Git · GitHub Actions · Docker · automated testing
 
-## Engineering stack
+## Beyond the code
 
-**Languages**
+I'm building **[AFTERWORK](https://weareafterwork.com)**, a creative technology and venture studio. My GitHub is where I share engineering work and experiments; client-confidential code and data stay private.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Application development**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
-
-**AI and computer vision**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-**Tooling**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
----
-
-## How I work
-
-- **Architecture first:** clear system boundaries, interfaces, and data flow
-- **Evidence over claims:** distinguish validated results from demonstrations and planned functionality
-- **Reproducibility:** document setup, assumptions, test procedures, and limitations
-- **Practical engineering:** prioritize usability, maintainability, and security
-
-## Current interests
-
-Computer-vision inference · full-stack architecture · testing and CI/CD · open-source contributions
-
----
-
-## Connect
-
-[GitHub](https://github.com/akashphilipvarghese-code) · [AFTERWORK](https://weareafterwork.com)
+**[Repositories](https://github.com/akashphilipvarghese-code?tab=repositories) · [Pull requests](https://github.com/pulls?q=is%3Apr+author%3Aakashphilipvarghese-code) · [AFTERWORK](https://weareafterwork.com)**

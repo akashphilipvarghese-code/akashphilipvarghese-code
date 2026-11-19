@@ -22,7 +22,7 @@ Fruit-ripeness analysis prototype covering image acquisition, feature extraction
 
 *Status: prototype. Some inference paths use documented demo/mock fallbacks; actual predictions require configured models and data.*
 
-### [02 / Tradeix Platform](https://github.com/akashphilipvarghese-code/claude-)
+### [02 / Tradeix Platform](https://github.com/akashphilipvarghese-code/tradeix-platform)
 **Full-stack · Authentication · SQL · Docker**
 
 Shipment-visibility platform prototype featuring protected dashboards and customer-scoped shipment queries.
